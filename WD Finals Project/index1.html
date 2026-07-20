@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark Kale Intac | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- home/hero -->
+    <header id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Welcome to my Portfolio</span>
+                <h1>Hi!, I'm Clark Kale Intac</h1>
+                <p>A college student who is dedicated to seek knowledge, build experience, and learn continously in the
+                    IT Industry.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="GradPic.jpg" alt="My Pic" class="profile-image">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- about me -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-me">
+                    <h3>My Journey & Goals</h3>
+                    <p>I am a 1st year college student who is finding his way through college, focusing on learning and
+                        meeting
+                        new people to connect with. Despite my lack in academics, I am very eager to learn and develop
+                        my coding
+                        skills through accumulating first-hand experience that I can apply in my discipline.</p>
+                    <p>My goal is to be an IT professional that mastered both front-end and back-end to further explore
+                        the digital
+                        world and learn more of the emerging digital technologies that can help society.</p>
+                </div>
+                <div class="skills-box">
+                    <h3>My Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML and CSS</li>
+                        <li>JavaScript</li>
+                        <li>UI/UX Design</li>
+                        <li>C++</li>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- achievements -->
+    <section id="achievements" class="achievements-section">
+        <div class="section-container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">2025 - Present</span>
+                    <h4>Bachelor of Science in Information Technology with specialization in Cybersecurity</h4>
+                    <p class="timeline-sub"> FEU TECH • Student</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2024-2025</span>
+                    <h4>Senior High School Honors Grade-12</h4>
+                    <p class="timeline-sub">Saint Bridget College</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2023-2024</span>
+                    <h4>Senior High School Honors Grade-11</h4>
+                    <p class="timeline-sub">Saint Bridget College</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- p1 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="NoMatterWhat.png" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>No Matter What</h3>
+                        <p>A group project we did during the iTam's PROJECT GENDER Advocacy
+                            showcase 2026 with the theme "We for Gender Equality and an Inclusive Society."
+                        </p>
+                    </div>
+                </div>
+                <!-- p2 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="ACE.png" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>ACE Political Map</h3>
+                        <p>A working mobile app, finals group project, that we created in Grade 11, which is
+                            collaborated with ACE Phoenix Aralinks
+                            in which we created a political map that has news from one region in the Philippines.
+                        </p>
+                    </div>
+                </div>
+                <!-- p3 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <img src="Firstproject.png" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>My First Website</h3>
+                        <p>This photo is a picture I took 5 years ago in my computer class in Grade 8
+                            I created a simple website using HTML and CSS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-intro">If you have any questions or just want to connect, feel free to drop a message!</p>
+
+            <div class="contact-wrapper">
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Links & Contacts</h3>
+                    <p><strong>Email:</strong> clark@gmail.com</p>
+                    <div class="social-links">
+                        <a href="#">GitHub</a>
+                        <a href="https://www.facebook.com/share/1CfDL3zQk5/">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>2026, Clark Kale Intac. Web Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
